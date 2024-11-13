@@ -40,7 +40,7 @@ Links de instalação
 * NodeJs - https://nodejs.org/en/download
 * VSCODE - https://code.visualstudio.com/download
 
-#### Documentos de referência
+Documentos de referência
 ---
 * Cypress:
 * https://www.cypress.io/

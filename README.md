@@ -2,7 +2,7 @@
 
 Projeto de automação web com Cypress, com ele você irá conseguir escrever seus primeiros casos de testes com uma ferramenta poderosa cheia de recursos que facilitam a sua vida.
 
-###### Pré requisitos para utilizar o projeto
+ Pré requisitos para utilizar o projeto
 
 SO
 ---
@@ -16,8 +16,8 @@ Hardware
 * Mínimo de 2 CPUs para rodar o Cypress
 * 1 CPU adicional se a gravação de vídeo estiver ativada
 * 1 CPU adicional por processo executado fora do Cypress, como:
- - Servidor de aplicativos (frontend)
- - Servidor de aplicativos (back-end)
+    - Servidor de aplicativos (frontend)
+      - Servidor de aplicativos (back-end)
 * Banco de dados de aplicativos
 * Qualquer infraestrutura adicional (Redis, Kafka, etc.)
 
@@ -43,9 +43,9 @@ Links de instalação
 #### Documentos de referência
 ---
 * Cypress:
-https://www.cypress.io/
-https://example.cypress.io/commands/actions
-https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Folder-Structure
+* https://www.cypress.io/
+* https://example.cypress.io/commands/actions
+* https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Folder-Structure
 
 Configurando ambiente para começar a usar o Cypress
 ---
@@ -53,8 +53,8 @@ Agora iremos configurar o ambiente para iniciarmos nosso projeto com o Cypress. 
 
 1. Instalação inicial
 
-Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
-Faça o download e instale o VSCODE ou outra IDE de sua preferência;
+* Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
+* Faça o download e instale o VSCODE ou outra IDE de sua preferência;
 
 2. Instale o Cypress
 ```
@@ -70,7 +70,9 @@ Está configurado no package.json, um bloco de script para executar o cypress
 A sintaxe "cypress:open" determina como será executado o cypress, recebendo a instrução padrão "cypress open"
 
 4. Executando o cypress
+```
 npm run cypress:open
+```
 
 Pronto agora é só criar seus cenários de testes e aproveitar o melhor da ferramenta.
 

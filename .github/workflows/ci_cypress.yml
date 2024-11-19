@@ -1,0 +1,25 @@
+name: Cypress Tests
+
+on:
+  push:
+   - main #ajuste conforme o nome de sua brach principal
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+     steps:
+       - name: Checkout Repository
+         users: actions/setup-node@v2
+
+       - name: Setup Node.js
+         uses: action/setup-node@v3
+         with:
+            node-version: 14 
+
+       - name: Install Cypress
+         run: np, install cypress --save-dev
+
+       - name: Run Cypress Tests
+         run: npm run cypress:run
+          

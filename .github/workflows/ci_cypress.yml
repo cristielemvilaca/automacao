@@ -10,15 +10,19 @@ jobs:
 
      steps:
        - name: Checkout Repository
-         users: actions/setup-node@v2
+         users: actions/checkout@v2
 
        - name: Setup Node.js
          uses: action/setup-node@v3
          with:
             node-version: 14 
 
+        - name: Install Dependencies
+         run: npm install
+
+       
        - name: Install Cypress
-         run: np, install cypress --save-dev
+         run: npm install cypress --save-dev
 
        - name: Run Cypress Tests
          run: npm run cypress:run
